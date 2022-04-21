@@ -1,0 +1,56 @@
+
+nav{
+    box-shadow: var(--light-shadow);
+    height: 5rem;
+    background: var(--clr-primary-7);
+    color: var(--clr-grey-9);
+    display: grid;
+    place-items: center;
+    
+}
+h1{
+    text-transform: capitalize;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.work, .food, .travel{
+    margin: 10px 0;
+}
+
+input{
+    position:inherit;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    padding: 1.1rem;
+    border: 0;
+    border-radius: 1rem;
+    transition: var(--transition);
+}
+
+input:hover{
+    cursor: pointer;
+}
+.btn {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    background: var(--clr-primary-10);
+    color: var(--clr-primary-5);
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border-color: var(--clr-primary-5);
+    cursor: pointer;
+  }
+  .btn:hover {
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-1);
+  }
